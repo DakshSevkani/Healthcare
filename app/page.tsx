@@ -712,9 +712,6 @@ export function Footer() {
             <p className="text-[11px] text-neutral-600 leading-snug">Main Clinic Road, Medical District block 4B.</p>
           </div>
         </div>
-        <div className="pt-8 flex justify-between items-center text-xs text-neutral-600">
-          <p>© {currentYear} Hospil. All rights reserved.</p>
-        </div>
       </div>
     </footer>
   );
