@@ -633,10 +633,6 @@ function FooterComponent({ brandName, brandTagline, clinicHotline, clinicEmail, 
           </div>
 
         </div>
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs lg:text-sm text-neutral-600 gap-4 font-semibold uppercase tracking-wider">
-          <p>© {new Date().getFullYear()} {brandName} Clinic. All rights reserved.</p>
-          <p className="flex items-center gap-1.5 normal-case tracking-normal">Made with <HeartPulse size={12} className="text-rose-600 fill-rose-600 animate-pulse" /> for complete medical care.</p>
-        </div>
       </div>
     </footer>
   );
