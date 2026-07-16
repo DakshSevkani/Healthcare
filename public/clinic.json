@@ -1,0 +1,152 @@
+{
+  "tabs": {
+    "basicInfo": {
+      "type": "section",
+      "label": "Basic Info",
+      "fields": [
+        {
+          "name": "name",
+          "type": "text",
+          "label": "Clinic Name",
+          "placeholder": "Hospil"
+        },
+        {
+          "name": "tagline",
+          "type": "textarea",
+          "label": "Clinic Tagline / Description",
+          "placeholder": "Providing premium, personalized healthcare services combined with top-tier medical experts..."
+        },
+        {
+          "name": "email",
+          "type": "email",
+          "label": "Contact Email",
+          "placeholder": "hospil@gmail.com"
+        },
+        {
+          "name": "hotline",
+          "type": "text",
+          "label": "Central Hotline Phone",
+          "placeholder": "+91 00000 00000"
+        },
+        {
+          "name": "address",
+          "type": "textarea",
+          "label": "Physical Address",
+          "placeholder": "Main Clinic Road, Medical District block 4B."
+        }
+      ]
+    },
+    "heroSection": {
+      "type": "section",
+      "label": "Hero Section",
+      "fields": [
+        {
+          "name": "badge",
+          "type": "text",
+          "label": "Top Banner Badge",
+          "placeholder": "Top-Rated Medical Studio"
+        },
+        {
+          "name": "headingBold",
+          "type": "text",
+          "label": "Main Heading (Bold)",
+          "placeholder": "Your Health,"
+        },
+        {
+          "name": "headingBlue",
+          "type": "text",
+          "label": "Main Heading Accent (Colored)",
+          "placeholder": "Our Total Priority."
+        },
+        {
+          "name": "description",
+          "type": "textarea",
+          "label": "Hero Description text",
+          "placeholder": "Experience world-class, personalized medical care without the long wait times..."
+        },
+        {
+          "name": "bgImage",
+          "type": "image",
+          "label": "Hero Background Image URL"
+        }
+      ]
+    },
+    "services": {
+      "type": "dynamic-section",
+      "label": "Departments & Services",
+      "fields": [
+        {
+          "name": "departmentList",
+          "type": "array",
+          "label": "Clinical Departments",
+          "itemFields": [
+            { "name": "title", "type": "text", "label": "Department Name", "placeholder": "Cardiology" },
+            { "name": "description", "type": "textarea", "label": "Short Summary", "placeholder": "Advanced cardiac diagnostics..." },
+            { "name": "image", "type": "image", "label": "Department Image URL" },
+            { 
+              "name": "points", 
+              "type": "array", 
+              "label": "Treatments Offered List", 
+              "itemFields": [
+                { "name": "point", "type": "text", "label": "Treatment Name", "placeholder": "24/7 Cardiac Cath Lab" }
+              ] 
+            }
+          ]
+        }
+      ]
+    },
+    "doctors": {
+      "type": "dynamic-section",
+      "label": "Available Specialists",
+      "fields": [
+        {
+          "name": "doctorList",
+          "type": "array",
+          "label": "Medical Practitioners",
+          "itemFields": [
+            { "name": "fullName", "type": "text", "label": "Doctor Full Name", "placeholder": "Dr. Alex Smith" },
+            { "name": "specialty", "type": "text", "label": "Area of Expertise", "placeholder": "Cardiology" }
+          ]
+        }
+      ]
+    },
+    "testimonials": {
+      "type": "dynamic-section",
+      "label": "Patient Testimonials",
+      "fields": [
+        {
+          "name": "reviewList",
+          "type": "array",
+          "label": "Patient Reviews",
+          "itemFields": [
+            { "name": "name", "type": "text", "label": "Patient Name", "placeholder": "Sarah Jenkins" },
+            { "name": "role", "type": "text", "label": "Patient Category", "placeholder": "Cardiology Patient" },
+            { "name": "text", "type": "textarea", "label": "Review Narrative", "placeholder": "The care I received was exceptional..." },
+            { "name": "rating", "type": "number", "label": "Stars Count (1-5)", "placeholder": "5" },
+            { "name": "image", "type": "image", "label": "Patient Avatar Photo URL" }
+          ]
+        }
+      ]
+    },
+    "timings": {
+      "type": "section",
+      "label": "Working Hours",
+      "fields": [
+        { "name": "monFri", "type": "text", "label": "Weekdays (Mon - Fri)", "placeholder": "Mon - Fri: 8:00 AM - 8:00 PM" },
+        { "name": "saturday", "type": "text", "label": "Saturday Hours", "placeholder": "Saturday: 9:00 AM - 5:00 PM" },
+        { "name": "sunday", "type": "text", "label": "Sunday Hours", "placeholder": "Sunday: Emergencies Only" }
+      ]
+    },
+    "socials": {
+      "type": "section",
+      "label": "Social & Links Matrix",
+      "fields": [
+        { "name": "whatsappNumber", "type": "text", "label": "Target WhatsApp Number", "placeholder": "8237024546" },
+        { "name": "facebook", "type": "text", "label": "Facebook Link", "placeholder": "https://facebook.com" },
+        { "name": "instagram", "type": "text", "label": "Instagram Link", "placeholder": "https://instagram.com" },
+        { "name": "twitter", "type": "text", "label": "Twitter Link", "placeholder": "https://twitter.com" },
+        { "name": "linkedin", "type": "text", "label": "LinkedIn Profile Link", "placeholder": "https://linkedin.com" }
+      ]
+    }
+  }
+}
